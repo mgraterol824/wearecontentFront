@@ -1,0 +1,184 @@
+
+:root {
+    --primary-color: #9b258e;
+    --text-color:#64736e;
+    --badge-bg-1: #eaeae8;
+    --badge-bg-2 :#eae6f5;
+    --badge-bg-3 :#dff5e9;
+    --bg-table: #eae6f5;
+    --btn-table:#f1f1f1;
+    --btn-inf-elg: #d9d9d9;
+}
+body,
+body * {
+    color: var(--text-color);
+    font-family: "Open Sans", serif;
+}
+.page-wrapper {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+li.nav-item button,
+.nav-tabs .nav-link.active {
+    color: var(--text-color);
+}
+button.nav-link i::before {
+    font-size: 1.5rem;
+}
+.btn.btn-action-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+.btn.btn-action-secondary {
+    color: var(--primary-color);
+    border: solid 2px var(--primary-color);
+}
+.card {
+    border: none;
+    min-height: 240px;
+}
+.card.alcance {
+    background-color: #a6e8cc;
+}
+.card.engagement {
+    background-color: #eedcec;
+}
+.card.cpm {
+    background-color: #dcf6eb;
+}
+.card.interaccion {
+    background-color: #fed992;
+}
+.card-text {
+    font-weight: 500;
+    min-height: 50px;
+}
+.total-count {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.card.resumen {
+    border-radius: 0;
+
+}
+.card.resumen .card-header {
+    background-color: initial;
+}
+
+.valor-total {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.valor-info {
+    background-color: #f9f2f9;
+}
+.resumen-total {
+    min-width: 20px;
+}
+.resumen-item .badge {
+    font-weight: 500;
+    font-size: 14px;
+    white-space: unset;
+}
+
+.badge.badge-bg-1 {
+    background-color: var(--badge-bg-1);
+}
+.badge.badge-bg-2 {
+    background-color: var(--badge-bg-2);
+}
+.badge.badge-bg-3 {
+    background-color: var(--badge-bg-3);
+}
+.text-primary-color {
+    color: var(--primary-color);
+}
+.text-default {
+    color: var(--text-color);
+}
+thead {
+    background-color: var(--bg-table);
+}
+.table-influencer thead th {
+    background-color: inherit;
+    font-weight: 500;
+}
+.table-influencer tr {
+    border-color: var(--bg-table);
+}
+.table-influencer td {
+    vertical-align: middle;
+}
+.table-influencer td span {
+    color: #000;
+}
+.btn.btn-action-table,
+.btn.btn-action-table:hover {
+    background-color: var(--btn-table);
+}
+.btn.btn-action-table.check {
+    line-height: 1.7rem;
+}
+.profile-photo {
+    max-width: 40px;
+    max-height: 40px;
+}
+thead tr.info-table {
+    border: solid 1px var(--btn-table);
+}
+tbody tr {
+    border: solid var(--bg-table);
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+.btn-group {
+    max-height: 46px;
+}
+.btn.btn-inf-elg {
+    background-color: var(--btn-inf-elg);
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px;
+    margin-bottom: 2px;
+    min-height: 46px;
+}
+.btn.btn-inf-elg:hover,
+.btn.btn-inf-elg:focus {
+    background-color: var(--btn-inf-elg);
+}
+.btn-check:checked+.btn.btn-inf-elg {
+    background-color: var(--btn-inf-elg);
+    border: none;
+    
+}
+.btn-check:checked+.btn.btn-inf-elg i::before {
+    background-color: white;
+    border-radius: 5px;
+}
+.btn.btn.btn-inf-elg i::before {
+    font-size: 2rem;
+    padding: 3px 5px;
+}
+.btn-check+.btn:hover {
+    background-color: var(--btn-table);
+}
+.btn.btn-modal-guardado {
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.btn.btn-secondary.btn-modal-guardado {
+    background-color: #fff;
+    color: var(--text-color);
+    border: solid 2px var(--text-color);
+    font-weight: 600;
+}
+.btn-close-modal {
+    background-color: #fff;
+}
+.btn-close-modal .bi-x-circle::before {
+    font-size: 1.7rem;
+}
